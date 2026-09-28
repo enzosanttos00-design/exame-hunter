@@ -1,0 +1,99 @@
+/* reset*/
+*{
+    margin: 0%;
+    padding: 0%;
+box-sizing: border-box;
+}
+
+header{
+width: 100%;
+background-color: rgb(255, 223, 255);
+
+ }
+#logo{
+    width: 250px; /*tamanho*/
+    margin-left: 36%; 
+}
+#pagina{
+     background-color: black; /*cor da sessao*/
+    margin-left: 30%;
+    width: 28%;
+    text-align: center; /*centralizar o texto*/
+    
+}
+a{
+color: white;
+margin: 15px;
+}
+.hxh{
+background-image: url(imagens/banner.png);
+background-size: cover; /* nao repetir a imagems*/
+height: 350px;
+width: 100%;
+}
+#banner{
+    width: 400px;
+margin-left: 700px;
+}
+.personagens{
+   background-color: black; 
+color: white;
+height: 565px; /*altura*/
+
+}
+ #texto{
+    text-align: center; /* centralizar o text*/
+ }   
+.gon{
+    
+display: block; /* */
+height: 200px;
+
+}
+.personagem{
+    display: inline-block; /*colocas as caixas na mesma linha */
+
+height:120px;
+width: 450px;
+}
+#card{
+height: 400px; /*altura da imagem*/
+width: 1400px; /*tamanho da imagem/ foto etc */
+display: inline-block;
+margin-top: 100px; /* da uma margem na parte de cima da tela*/
+}
+.arcos{
+    background-color: rgb(209, 162, 230);
+    width: 100%px;
+height: 700px;
+}
+#tag{
+    text-align: center;
+
+}
+.meruem{
+    width:600px ;
+height: 400px ;
+display: inline-block;
+margin: 50px;
+}
+.cardarco{
+    height: 400px; /*altura da imagem*/
+    width: 1400px; /*tamanho da imagem/ foto etc */
+    display: inline-block;
+    margin-top: 100px; /* da uma margem na parte de cima da tela*/
+     
+}
+
+.personagemarco{
+    display: inline-block; /*colocas as caixas na mesma linha */
+
+    height:120px;
+    width: 600px;
+    margin: 15px;
+    ;
+}
+.fim{
+    color: white;
+    background-color: darkorchid;
+}
