@@ -1,0 +1,190 @@
+/* reset*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(253, 225, 253);
+
+}
+
+#logo {
+
+
+    width: 250px;
+    /*tamanho*/
+    margin-left: 36%;
+}
+
+#pagina {
+
+
+    background-color: black;
+    /*cor da sessao*/
+    margin-left: 30%;
+    width: 28%;
+    text-align: center;
+    /*centralizar o texto*/
+    display: flex ;
+justify-content: space-around;
+}
+a{
+    color: white;
+}
+.container{
+    height: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+    gap: 200px;
+ 
+}
+.item{
+   width: 250px; 
+height: 300px;
+background-color: rgb(113, 109, 149);
+display: flex;
+border: 5px solid white;
+border-radius: 15px;
+flex-direction: column;
+}
+.item:hover{
+background-color: rgb(170, 142, 238);
+border: 5px solid rgb(113, 109, 149);
+}
+img{
+    width: 220px;
+    height: 160px;
+margin-top: 11px;
+margin-right: 5px;
+margin-left: 11px;
+}
+.teste{
+    width:240px ;
+    height:270px ;
+background-color: aquamarine;
+ background-image: url(imagens/killua\ ps.png);
+background-size: cover;
+}
+.hisoka{
+    width: 240px;
+    height: 270px;
+background-color: aqua;
+background-image: url(hisoka\ 22.jfif);
+background-size: cover;
+}
+
+.nomes{
+    color: white;
+    display: flex;
+    justify-content: center;
+   margin-top: 10px; 
+}
+.nomes:hover{
+    color: black;
+}
+
+.card{
+    display: flex;
+ gap: 50px;
+justify-content: center;
+
+
+
+}
+.hxh{
+    background-color: black;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+        margin-top: 30px;
+    text-align: center;
+    }
+    .fim{
+        background-color: blueviolet;
+    }
+    .teste:hover{
+        background-image: url(godspeed.avif);
+    }
+    .hisoka:hover{
+        background-image: url(imagens/hisoka\ ps.png);
+    }
+    .kurapika{
+        width: 240px ;
+        height: 270px ;
+        background-color: blue;
+        background-image: url(imagens/kurapika\ ps.png);
+        background-size: cover;
+    }
+.kurapika:hover{
+    background-image: url(kurapika22.jfif);
+}
+.ging{
+    width: 240px ;
+    height: 270px ;
+    background-color: blue;
+    background-image: url(imagens/ging\ ps.png);
+    background-size: cover;
+}
+.ging:hover{
+    background-image: url(ging22.jfif);
+}
+.meruem{
+    width: 240px ;
+    height: 270px ;
+    background-color: blue;
+    background-size: cover;
+    background-image:url(imagens/meruem\ ps.png)
+}
+.meruem:hover{
+    background-image: url(meruem22.jfif);
+}
+.zeno{
+    width: 240px ;
+    height: 270px ;
+    background-color: blue;
+    background-size: cover;
+    background-image: url(imagens/zeno\ ps.png);
+}
+.zeno:hover{
+
+    background-image: url(zeno22.jfif);
+}
+.netero{
+    width: 240px ;
+    height: 270px ;
+    background-color: blue;
+    background-size: cover;
+background-image: url(imagens/netero\ ps.png);
+}
+.netero:hover{
+background-image: url(netero22.jfif);
+}
+.kuroro{
+    width: 240px ;
+    height: 270px ;
+    background-color: blue;
+    background-size: cover;
+background-image: url(imagens/curoro\ ps.png);
+}
+.kuroro:hover{
+    background-image: url(kuroro22.jfif);
+}
+.gon{
+    width: 240px ;
+    height: 270px ;
+    background-color: blue;
+    background-size: cover;
+    background-image: url(imagens/gon\ ps.png)
+}
+.gon:hover{
+background-image: url(gon22.jfif);
+
+}
